@@ -7,7 +7,6 @@ body {
     background-color: rgb(176, 198, 255);
 }
 .wrapper {
-    display: inline-block;
     text-align: center;
 }
 .titlebox {
