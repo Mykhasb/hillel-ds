@@ -1,0 +1,37 @@
+.navigation {
+    position: sticky;
+    top: 0;
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+#block-one {
+    height: 400px;
+    background-color: aqua;
+}
+
+#block-two {
+    height: 400px;
+    background-color: rgb(255, 115, 0);
+}
+
+#block-three {
+    height: 400px;
+    background-color: rgb(255, 0, 149);
+}
+
+#block-four {
+    height: 400px;
+    background-color: rgb(0, 26, 255);
+}
+
+#block-five {
+    height: 400px;
+    background-color: rgb(0, 255, 64);
+}
