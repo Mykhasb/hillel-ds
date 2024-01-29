@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="./img/pngwing.com.png"
+              alt="planet"
+              class="navbar-img"
+              width="50"
+              height="50"
+          /></a>
+          <button
+            class="navbar-toggler custom-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="custom-toggler navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="#"
+                  >Earth</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Mars</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"> Jupiter </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white">Saturn</a>
+              </li>
+            </ul>
+            <button class="btn btn-outline-light" type="button">
+              Find more planets
+            </button>
+          </div>
+        </div>
+      </nav>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div
+            class="carousel-item active"
+            style="background-image: url(./img/slider1img.jpg)"
+          >
+            <div class="container courusel-container">
+              <h3 class="second-title">Earth</h3>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="background-image: url(./img/681652.jpg)"
+          >
+            <div class="container courusel-container">
+              <h3 class="second-title">Mars</h3>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="background-image: url(./img/895971.png)"
+          >
+            <div class="container courusel-container">
+              <h3 class="second-title">Jupiter</h3>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <div class="container">
+        <h2 class="second-title d-flex justify-content-center mt-4">
+          Some planets
+        </h2>
+        <div class="main-inner d-flex justify-content-center flex-wrap">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./img/pixel_art_earth_by_beastmodepit_dgbdr4j-pre.jpg"
+              class="card-img-top"
+              alt="Earth"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Earth</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-outline-dark">Fly me to the moon</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img src="./img/TgJeMgb.jpeg" class="card-img-top" alt="Mars" />
+            <div class="card-body">
+              <h5 class="card-title">Mars</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-outline-dark">Fly me to the moon</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="./img/84msid1vibo51.png"
+              class="card-img-top"
+              alt="someplanet"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Some planet</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-outline-dark">Fly me to the moon</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="./img/pixel_art_earth_by_beastmodepit_dgbdr4j-pre.jpg"
+              class="card-img-top"
+              alt="Earth"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Earth</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-outline-dark">Fly me to the moon</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img src="./img/TgJeMgb.jpeg" class="card-img-top" alt="Mars" />
+            <div class="card-body">
+              <h5 class="card-title">Mars</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-outline-dark">Fly me to the moon</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="./img/84msid1vibo51.png"
+              class="card-img-top"
+              alt="someplanet"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Some planet</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-outline-dark">Fly me to the moon</a>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+            <h2 class="second-title mt-4">
+                Some Form
+            </h2>
+          <form class="form text-white w-75">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text text-white">
+                Don`t be scared to share your email
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Check me out</label
+              >
+            </div>
+            <button type="submit" class="btn btn-light">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="footer d-flex justify-content-center border-top">
+        <p class="text fs-1 text-uppercase text-white">Footer</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
