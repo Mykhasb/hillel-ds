@@ -1,0 +1,66 @@
+.container {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    animation-name: gradien;
+    animation: gradient 10s ease 0s infinite normal none;
+    background: linear-gradient(270deg, #661780, #4430a2, #df4bbd);
+    background-size: 600% 600%;
+}
+
+
+.hello {
+    font-size: 50px;
+    font-weight: bold;
+    color: 
+    white;
+}
+
+.circle-box {
+    height: 400px;
+    width: 800px;
+    border: solid white;
+    position: relative;
+}
+
+.circle {
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation-name: cirle;
+    animation: circle 4s linear 0s infinite alternate none;
+}
+
+@keyframes circle {
+
+    0% {
+        bottom: 0;
+        left: 0;
+    }
+    
+    50% {
+        left: 200px;
+        bottom: 250px;
+        height: 150px;
+        width: 150px;
+    }
+
+    100% {
+        bottom: 0;
+        left: 750px;
+    }
+}
+
+@keyframes gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
